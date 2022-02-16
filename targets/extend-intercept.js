@@ -8,7 +8,7 @@ module.exports = targets => {
     );
 
     const CoreButton = ProductFullDetailComponent.addImport(
-        "CoreButton from '@oms/core/lib/components/Button'"
+        "CoreButton from '@kevingorjan/core/lib/components/Button'"
     );
 
     ProductFullDetailComponent.replaceJSX('<Button disabled={isAddToCartDisabled} priority="high" type="submit">', `<${CoreButton} />`);
