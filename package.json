@@ -4,6 +4,11 @@
   "description": "OMS Core folder",
   "main": "index.js",
   "author": "Kevin Gorjan",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "@magento/peregrine": "~12.1.0",
     "@magento/pwa-buildpack": "~11.0.0",
